@@ -1,0 +1,21 @@
+.carousel {
+  max-width: 1440px!important; /* Adjust as needed */
+  margin: auto;
+  padding: 20px;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  z-index: 1;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: black; /* Adjust arrow color */
+}
+
+.carousel-image {
+  width: 100%;
+  height: 450px !important;
+  object-fit: cover;
+}
